@@ -35,6 +35,7 @@ body{
     margin-bottom: 5%;
     margin-top: 10%;
     padding: top;
+    font-family: 'poppins';
 }
 .top{
     position: relative;
@@ -46,6 +47,8 @@ body{
 .top p{
     font-size: 20px;
     color: white;
+    font-family: 'poppins';
+
 }
 #con-us{
     color:white;
@@ -80,12 +83,12 @@ body{
 }
 #head{
     text-align: start;
+    font-family: 'poppins';
 }
 nav a{
    color:white;
     gap: 20%;
-    /* display: flex; */
-    font-family: 'poopins';
+    font-family: 'poppins';
     margin-left: 15%;
 
 }
@@ -212,9 +215,9 @@ height: 30%;
 }
 .print-all{
     display: flex;
-    gap: 10%;
+    gap: 4%;
     margin-left: 15px;
-    border-right: opx;
+    border-right: 2px;
 
 }
 
@@ -229,8 +232,8 @@ height: 30%;
 
 
 .print-paint img{
-    width: 200%;
-    height: 60%;
+    width: 500px;
+    height: 70%;
     border-radius: 15px;
 }
 
@@ -241,16 +244,25 @@ height: 30%;
 
 .print-fabric img{
     width: 60%;
-    height: 10%;
+    height: 10px;
     border-radius: 15px;
 
 
 }
 .print-color img{
-    width:70%;
-    height: 70%;
+    width:500px;
+    height: 75%;
     border-radius: 8px;
 
+}
+.print-all h3{
+    font-family: 'poppins';
+    font-size: 50px;
+}
+.print-all p{
+    font-family: 'poppins';
+    font-size: 17px;
+    color: gray;
 }
 .rasi-array{
     font-family: 'poopins';
@@ -329,7 +341,7 @@ height: 30%;
     color: #82BF79;;
 }
 .quality img{
-    width: 70%;
+    width: 80%;
     height: 350px;
     border-radius: 15px;
 }
@@ -368,27 +380,28 @@ height: 30%;
     font-size: 20px;
 
 }
-#clothe img{
+#clothe{
     width: 30%;
-    height: 10px;
+    height: 500px;
     border-radius: 15px;
 }
 #bed{
     width:30%;
     border-radius: 15px;
-    height: 30%;
+    height: 500px;
 
 }
 #girl{
     width: 30%;
     border-radius: 15px;
-    height: 30%;
+    height: 500px;
 
 }
 #blanket{
     width: 80%;
     height: 30%;
     border-radius: 10px;
+    border-top: 10%;
 
 
 
@@ -422,7 +435,7 @@ height: 30%;
     position: absolute;
     width: 95%;
     height: 70%;
-    margin-left: -40%;
+    margin-left: -65%;
     margin-bottom: 20%;
 }
 .contacts {
@@ -537,7 +550,7 @@ height: 30%;
         width: 100%;
     }
     #rasi{
-        width:250%;
+        width:0%;
         border:solid 1px ;
         color: white;
         font-family: 'poppins';
@@ -590,13 +603,436 @@ height: 30%;
     }
     #sofa{
         margin-right: 0%;
-        box-shadow: 15px 10px 10px 10px gray;
+        box-shadow: 0px 0px 0px 0px gray;
     
     }
     .screen-text{
         text-align: justify;
         font-family: 'poppins';
     }
+    #printing{
+        font-size: 0px;
+        color: #82BF79;
+    }
+    #timeless{
+        font-size: 0px;
+        color:black;
+    }
+    #paragraph{
+        color: gray;
+        font-size: 0px;
+    
+    }
+    
+    .rasi-button{
+        display: flex;
+        gap: 0%;
+        
+    }
+    #know{
+        border-radius: 0px;
+        background-color: #82BF79;
+        width: 0px;
+        height: 0px;
+        border: transparent;
+    
+    }
+    #contact{
+        border-radius: 0px;
+        width: 20px;
+        height: 0px;
+       
+    }
+    
+    
+    .rasi-button button:nth-child(1) i{
+        transform: rotate(-45deg);
+    }
+    .rasi-button button:nth-child(2) i{
+        transform: rotate(-45deg);
+    }
+    .logos{
+        display: flex;
+        gap: 0px;
+        margin-left: 0%;
+        background-color: rgb(202, 247, 247);
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    
+    
+    #premium{
+    width: 0%;
+    height: 0%;
+    
+    
+    }
+    #warranty{
+        width: 0%;
+        height: 0%;
+        
+    }
+    #ship{
+        width: 0%;
+        height: 0%;
+    }
+    #art{
+        width: 0%;
+        height: 0%;
+    }
+    
+    .warrant{
+        margin-left: 0%;
+    }
+    .shipness{
+        margin-left: 0%;
+    }
+    .artness{
+        margin-left: 0%;
+    }
+    .rasi-array{
+        font-family: 'poppins';
+        text-align: center;
+    
+    }
+    #array{
+        font-size: 0px;
+    
+    }
+    #dive{
+        font-size: 0px;
+    }
+    .rasi-array p{
+        color: gray;
+        margin-left: 0%;
+        margin-right: 0%;
+        
+    }
+    .print-all{
+        display: flex;
+        gap: 0%;
+        margin-left: 0px;
+        border-right: 0px;
+    
+}
+#ar-print{
+    font-size: 0px;
+
+}
+#ar-p{
+    font-size: 0x;
+    color:gray;
 }
 
 
+.print-paint img{
+    width: 0px;
+    height: 0%;
+    border-radius: 0px;
+}
+
+    
+
+.print-fabric img{
+    width: 0%;
+    height: 0px;
+    border-radius: 0px;
+
+
+}
+.print-color img{
+    width:0px;
+    height: 0%;
+    border-radius: 0px;
+
+}
+.print-all h3{
+    font-family: 'poppins';
+    font-size: 0px;
+}
+.print-all p{
+    font-family: 'poppins';
+    font-size: 0px;
+    color: gray;
+}
+.rasi-array{
+    font-family: 'poopins';
+    
+
+}
+
+.array-text p{
+    font-size: 0px;
+    color: gray;
+    text-align: justify;
+    font-family: 'poopins';
+
+}
+.array-text h3{
+    font-size: 0px;
+    text-align: justify;
+    font-family: 'poopins';
+    
+}
+.client-praise{
+    text-align: center;
+    font-family: 'poppins';
+
+}
+#client{
+    font-size: 0px;
+}
+#client-p{
+    font-size: 0px;
+    color: gray;
+}
+.garment-industry{
+    display: flex;
+    gap: 0%;
+    margin-left: 0%; margin-right: 0%;
+    
+
+}
+.birla{
+    display: flex
+}
+.birla img{
+    width: 0%;
+    height: 0%;
+}
+.adi-txt{
+    text-align: justify;
+}
+.arvi img{
+    width: 0%;
+    height: 0%;
+}
+.arv-txt{
+    margin-left: 0%;
+    
+
+}
+.quality {
+    display: flex;
+    margin-left: 0%;
+    gap: 0%;
+    margin-bottom: 0%;
+    
+}
+.ray img{
+    height: 0%
+    
+}
+.quality p{
+    font-family: 'poppins';
+
+
+}
+.stars{
+    color: #82BF79;;
+}
+.quality img{
+    width: 0%;
+    height: 0px;
+    border-radius: 0px;
+}
+.quality p{
+    color: gray;
+}
+.brands{
+    display:flex;
+    gap: 0%;
+}
+#arvind{
+    height: 0%
+}
+#gap{
+    height: 0%;
+}
+#myn{
+    width: 0%;
+    height: 0%;
+}
+
+.showcase{
+    font-family: 'poppins';
+    text-align: center;
+}
+.showcase-img{
+    display: flex;
+    gap: 0%;
+}
+#best{
+    font-family: 'poppins';
+    font-size: 0px;
+}
+#captivate{
+    color: gray;
+    font-size: 0px;
+
+}
+#clothe{
+    width: 0%;
+    height: 0px;
+    border-radius: 0px;
+}
+#bed{
+    width:0%;
+    border-radius: 0px;
+    height: 0px;
+
+}
+#girl{
+    width: 0%;
+    border-radius: 0px;
+    height: 0px;
+
+}
+#blanket{
+    width: 0%;
+    height: 0%;
+    border-radius: 0px;
+    border-top: 0%;
+
+
+
+}
+#blanket{
+    border-top: 0%;
+}
+.reach{
+    text-align: center;
+    font-family: 'poppins';
+}
+.reach-out{
+    font-size: 0px;
+    
+    
+
+
+}#questions{
+    color:gray;
+    font-size: 0px;
+}
+.map{
+    width: 0%;
+    border-radius: 0px;
+    margin-bottom: 0%;
+   
+
+
+}
+#rasi-map{
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+}
+.contacts {
+    font-family: Poppins;
+    position: relative;
+    background-color:white;
+    box-shadow: 0px 0px 0px gray;
+    padding-left: 0px;
+    border-radius: 0px;
+    width: 0px;
+    margin-left: 0px;
+    margin-top: 0%;
+    padding-right: 0px;
+}
+.contacts i{
+    color: white;
+    background-color: black ;padding:10px;
+    border-radius: 0px;
+}
+#contact-info {
+    font-size: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+#phone-number {
+    color: gray;
+    font-size: 0px;
+    margin-top: 0px;
+    margin-left: 0PX;
+}
+.phone-container{
+    display: flex;
+}
+.phone-container i{
+    margin-top: 0px;
+}
+#adress-number {
+    color: gray;
+    font-size: 0px;
+    margin-top: -0px;
+}
+.address-container{
+    display: flex;
+}
+.address-container i{
+    margin-top: 0px;
+}
+.opening-container{
+    display: flex;
+
+}
+.opening-container i{
+    margin-top: 0%
+}
+#hours {
+    color: gray;
+    font-size: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+
+.footer{
+    background-color: #201a1c;
+    height: 0%;
+}
+.footer-container{
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    background-color: #201a1c;
+    color: white;
+    text-align: center;
+    display: flex;
+    gap: 0%;
+    padding-top:0%;
+    justify-content: space-around;
+
+
+}
+.footer-container p{
+    color: gray;
+
+}
+.footer-container ul{
+    color:gray;
+}
+.footer h5{
+    color: white;
+
+}
+
+.rasi-footer{
+    font-family: 'poppins';
+    
+}
+#rasi-logo{
+    border-radius: 0px;
+}
+.copyright{
+    background-color: #201a1c;
+    color: white;
+    font-family: 'poppins';
+    text-align: center;
+    border-top: solid 2px;
+    padding-bottom: 0px;
+}
+
+
+}
