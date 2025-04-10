@@ -6,6 +6,7 @@ body{
     overflow-x: hidden;
 }
 .container{
+    
       
 }
 #rasi{
@@ -33,6 +34,7 @@ body{
     color: white;
     margin-bottom: 5%;
     margin-top: 10%;
+    padding: top;
 }
 .top{
     position: relative;
@@ -46,13 +48,16 @@ body{
     color: white;
 }
 #con-us{
-    color:black;
-    background-color: gray;
+    color:white;
+    background-color: rgb(189, 182, 182);
     width: 20%;
     height: 70px;
-    border: transparent;
+    border: none;
     border-radius: 8px;
     margin-right: 10%;
+    cursor: pointer;
+    padding: 1.4% 4%;
+    
 
 }
 .pillow-text{
@@ -71,6 +76,10 @@ body{
 } 
 .home{
     position: relative;
+
+}
+#head{
+    text-align: start;
 }
 nav a{
    color:white;
@@ -119,14 +128,8 @@ nav a{
 
 .rasi-button{
     display: flex;
-    /* font-size: 15px;
-    height: 75px;
-    width: 30%;
-    color: white;
-    font-family: 'poppins';
-    cursor: pointer; */
     gap: 15%;
-    /* border-radius: 35px; */
+    
 }
 #know{
     border-radius: 20px;
@@ -180,9 +183,6 @@ height: 30%;
     height: 30%;
 }
 
-.prem{
-     
-}
 .warrant{
     margin-left: 14%;
 }
@@ -191,15 +191,6 @@ height: 30%;
 }
 .artness{
     margin-left: 7%;
-}
-#know{
-
-}
-#contact{
-
-}
-.icons{
-
 }
 .rasi-array{
     font-family: 'poppins';
@@ -222,8 +213,7 @@ height: 30%;
 .print-all{
     display: flex;
     gap: 10%;
-    /* margin-bottom: 20%; */
-    margin-left: -10px;
+    margin-left: 15px;
     border-right: opx;
 
 }
@@ -238,8 +228,8 @@ height: 30%;
 }
 
 
-.print-paint img {
-    width:120%;
+.print-paint img{
+    width: 200%;
     height: 60%;
     border-radius: 15px;
 }
@@ -249,31 +239,36 @@ height: 30%;
     border-radius: 8px;
 
 
-#fabric{
-    width:60%;
-    height: 20%;
+.print-fabric img{
+    width: 60%;
+    height: 10%;
     border-radius: 15px;
 
 
 }
 .print-color img{
     width:70%;
-    height: 60%;
+    height: 70%;
     border-radius: 8px;
 
 }
-.array-text{
+.rasi-array{
+    font-family: 'poopins';
     
 
 }
+
 .array-text p{
     font-size: 17px;
     color: gray;
     text-align: justify;
+    font-family: 'poopins';
+
 }
 .array-text h3{
     font-size: 25px;
     text-align: justify;
+    font-family: 'poopins';
     
 }
 .client-praise{
@@ -319,12 +314,14 @@ height: 30%;
     margin-left: 10%;
     gap: 10%;
     margin-bottom: 10%;
+    
 }
 .ray img{
     height: 60%
     
 }
 .quality p{
+    font-family: 'poppins';
 
 
 }
@@ -332,13 +329,16 @@ height: 30%;
     color: #82BF79;;
 }
 .quality img{
-    width: 30%;
-    height: 20%;
+    width: 70%;
+    height: 350px;
     border-radius: 15px;
+}
+.quality p{
+    color: gray;
 }
 .brands{
     display:flex;
-    gap: 10%;
+    gap: 7%;
 }
 #arvind{
     height: 30%
@@ -368,9 +368,9 @@ height: 30%;
     font-size: 20px;
 
 }
-#clothe{
+#clothe img{
     width: 30%;
-    max-height: 10%;
+    height: 10px;
     border-radius: 15px;
 }
 #bed{
@@ -382,7 +382,7 @@ height: 30%;
 #girl{
     width: 30%;
     border-radius: 15px;
-    height: 50%
+    height: 30%;
 
 }
 #blanket{
@@ -392,6 +392,9 @@ height: 30%;
 
 
 
+}
+#blanket{
+    border-top: 5%;
 }
 .reach{
     text-align: center;
@@ -409,18 +412,18 @@ height: 30%;
 }
 .map{
     width: 100%;
-    /* height: 70%; */
     border-radius: 15px;
     margin-bottom: 10%;
    
-    /* margin-bottom: 30%; */
+
 
 }
 #rasi-map{
     position: absolute;
-    width: 85%;
+    width: 95%;
     height: 70%;
     margin-left: -40%;
+    margin-bottom: 20%;
 }
 .contacts {
     font-family: Poppins;
@@ -481,21 +484,11 @@ height: 30%;
     padding-bottom: 80px;
 }
 
-
-
-
-
-
-
-
-
-
 .footer{
     background-color: #201a1c;
     height: 50%;
 }
 .footer-container{
-    /* position: fixed; */
     left: 0;
     bottom: 0;
     width: 100%;
@@ -536,10 +529,6 @@ height: 30%;
     border-top: solid 2px;
     padding-bottom: 50px;
 }
-/* #copyright p{
-    padding-bottom: 50px;
-} */
-
 
 
 @media(max-width:500px) and (min-width: 300px){
