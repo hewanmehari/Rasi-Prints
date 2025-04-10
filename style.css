@@ -1,0 +1,613 @@
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-Light.ttf);
+}
+body{
+    overflow-x: hidden;
+}
+.container{
+      
+}
+#rasi{
+    border:solid 1px ;
+    color: white;
+    font-family: 'poppins';
+    background-color: #82BF79;
+    text-align: center; 
+    margin-top: -0.5%;
+}
+.frontPage{
+    width: 100%;
+   
+}
+#head{
+    color: white;
+}
+#pillows{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.elevate{
+    font-size: 60px;
+    color: white;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+.top{
+    position: relative;
+    margin-top: 400px;
+    margin-left: 35%;
+    text-align: start;
+    
+}
+.top p{
+    font-size: 20px;
+    color: white;
+}
+#con-us{
+    color:black;
+    background-color: gray;
+    width: 20%;
+    height: 70px;
+    border: transparent;
+    border-radius: 8px;
+    margin-right: 10%;
+
+}
+.pillow-text{
+    font-family: 'poppins';
+    position: absolute;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 40%;
+    color: white;
+    font-size: 25px;
+    width: 99%; 
+    height: 77.5%; 
+    top: 65.4%; 
+    left: -39.5%;
+    
+} 
+.home{
+    position: relative;
+}
+nav a{
+   color:white;
+    gap: 20%;
+    /* display: flex; */
+    font-family: 'poopins';
+    margin-left: 15%;
+
+}
+#rank{
+    font-size: 45px;
+    font-family: 'poppins';
+    border: solid 1px black; 
+    text-align: center;
+    gap: 5%;
+}
+.screen-printing{
+    display: flex;
+    margin-left: 15%;
+    margin-bottom: 10%;
+    margin-top: 20%;
+    
+}
+#sofa{
+    margin-right: 15%;
+    box-shadow: 15px 10px 10px 10px gray;
+
+}
+.screen-text{
+    text-align: justify;
+    font-family: 'poppins';
+}
+#printing{
+    font-size: 22px;
+    color: #82BF79;
+}
+#timeless{
+    font-size: 60px;
+    color:black;
+}
+#paragraph{
+    color: gray;
+    font-size: 20px;
+
+}
+
+.rasi-button{
+    display: flex;
+    /* font-size: 15px;
+    height: 75px;
+    width: 30%;
+    color: white;
+    font-family: 'poppins';
+    cursor: pointer; */
+    gap: 15%;
+    /* border-radius: 35px; */
+}
+#know{
+    border-radius: 20px;
+    background-color: #82BF79;
+    width: 120px;
+    height: 60px;
+    border: transparent;
+
+}
+#contact{
+    border-radius: 20px;
+    width: 120px;
+    height: 60px;
+   
+}
+
+
+.rasi-button button:nth-child(1) i{
+    transform: rotate(-45deg);
+}
+.rasi-button button:nth-child(2) i{
+    transform: rotate(-45deg);
+}
+.logos{
+    display: flex;
+    gap: 40px;
+    margin-left: 2%;
+    background-color: rgb(202, 247, 247);
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+
+#premium{
+width: 20%;
+height: 30%;
+
+
+}
+#warranty{
+    width: 20%;
+    height: 30%;
+    
+}
+#ship{
+    width: 20%;
+    height: 30%;
+}
+#art{
+    width: 20%;
+    height: 30%;
+}
+
+.prem{
+     
+}
+.warrant{
+    margin-left: 14%;
+}
+.shipness{
+    margin-left: 7%;
+}
+.artness{
+    margin-left: 7%;
+}
+#know{
+
+}
+#contact{
+
+}
+.icons{
+
+}
+.rasi-array{
+    font-family: 'poppins';
+    text-align: center;
+
+}
+#array{
+    font-size: 60px;
+
+}
+#dive{
+    font-size: 23px;
+}
+.rasi-array p{
+    color: gray;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.print-all{
+    display: flex;
+    gap: 10%;
+    /* margin-bottom: 20%; */
+    margin-left: -10px;
+    border-right: opx;
+
+}
+
+#ar-print{
+    font-size: 60px;
+
+}
+#ar-p{
+    font-size: 22px;
+    color:gray;
+}
+
+
+.print-paint img {
+    width:120%;
+    height: 60%;
+    border-radius: 15px;
+}
+
+    width:40px;
+    height: 50%;
+    border-radius: 8px;
+
+
+#fabric{
+    width:60%;
+    height: 20%;
+    border-radius: 15px;
+
+
+}
+.print-color img{
+    width:70%;
+    height: 60%;
+    border-radius: 8px;
+
+}
+.array-text{
+    
+
+}
+.array-text p{
+    font-size: 17px;
+    color: gray;
+    text-align: justify;
+}
+.array-text h3{
+    font-size: 25px;
+    text-align: justify;
+    
+}
+.client-praise{
+    text-align: center;
+    font-family: 'poppins';
+
+}
+#client{
+    font-size: 60px;
+}
+#client-p{
+    font-size: 23px;
+    color: gray;
+}
+.garment-industry{
+    display: flex;
+    gap: 3%;
+    margin-left: 5%; margin-right: 5%;
+    
+
+}
+.birla{
+    display: flex
+}
+.birla img{
+    width: 80%;
+    height: 65%;
+}
+.adi-txt{
+    text-align: justify;
+}
+.arvi img{
+    width: 25%;
+    height: 60%;
+}
+.arv-txt{
+    margin-left: 5%;
+    
+
+}
+.quality {
+    display: flex;
+    margin-left: 10%;
+    gap: 10%;
+    margin-bottom: 10%;
+}
+.ray img{
+    height: 60%
+    
+}
+.quality p{
+
+
+}
+.stars{
+    color: #82BF79;;
+}
+.quality img{
+    width: 30%;
+    height: 20%;
+    border-radius: 15px;
+}
+.brands{
+    display:flex;
+    gap: 10%;
+}
+#arvind{
+    height: 30%
+}
+#gap{
+    height: 30%;
+}
+#myn{
+    width: 10%;
+    height: 50%;
+}
+
+.showcase{
+    font-family: 'poppins';
+    text-align: center;
+}
+.showcase-img{
+    display: flex;
+    gap: 5%;
+}
+#best{
+    font-family: 'poppins';
+    font-size: 60px;
+}
+#captivate{
+    color: gray;
+    font-size: 20px;
+
+}
+#clothe{
+    width: 30%;
+    max-height: 10%;
+    border-radius: 15px;
+}
+#bed{
+    width:30%;
+    border-radius: 15px;
+    height: 30%;
+
+}
+#girl{
+    width: 30%;
+    border-radius: 15px;
+    height: 50%
+
+}
+#blanket{
+    width: 80%;
+    height: 30%;
+    border-radius: 10px;
+
+
+
+}
+.reach{
+    text-align: center;
+    font-family: 'poppins';
+}
+.reach-out{
+    font-size: 60px;
+    
+    
+
+
+}#questions{
+    color:gray;
+    font-size: 20px;
+}
+.map{
+    width: 100%;
+    /* height: 70%; */
+    border-radius: 15px;
+    margin-bottom: 10%;
+   
+    /* margin-bottom: 30%; */
+
+}
+#rasi-map{
+    position: absolute;
+    width: 85%;
+    height: 70%;
+    margin-left: -40%;
+}
+.contacts {
+    font-family: Poppins;
+    position: relative;
+    background-color:white;
+    box-shadow: 10px 10px 10px gray;
+    padding-left: 50px;
+    border-radius: 20px;
+    width: 380px;
+    margin-left: 350px;
+    margin-top: 10%;
+    padding-right: 50px;
+}
+.contacts i{
+    color: white;
+    background-color: black ;padding:10px;
+    border-radius: 40px;
+}
+#contact-info {
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-top: 80px;
+}
+#phone-number {
+    color: gray;
+    font-size: 15px;
+    margin-top: -20px;
+    margin-left: 20PX;
+}
+.phone-container{
+    display: flex;
+}
+.phone-container i{
+    margin-top: 20px;
+}
+#adress-number {
+    color: gray;
+    font-size: 15px;
+    margin-top: -20px;
+}
+.address-container{
+    display: flex;
+}
+.address-container i{
+    margin-top: 30px;
+}
+.opening-container{
+    display: flex;
+
+}
+.opening-container i{
+    margin-top: 20%
+}
+#hours {
+    color: gray;
+    font-size: 15px;
+    margin-top: -20px;
+    padding-bottom: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: #201a1c;
+    height: 50%;
+}
+.footer-container{
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #201a1c;
+    color: white;
+    text-align: center;
+    display: flex;
+    gap: 7%;
+    padding-top:3%;
+    justify-content: space-around;
+
+
+}
+.footer-container p{
+    color: gray;
+
+}
+.footer-container ul{
+    color:gray;
+}
+.footer h5{
+    color: white;
+
+}
+
+.rasi-footer{
+    font-family: 'poppins';
+    
+}
+#rasi-logo{
+    border-radius: 15px;
+}
+.copyright{
+    background-color: #201a1c;
+    color: white;
+    font-family: 'poppins';
+    text-align: center;
+    border-top: solid 2px;
+    padding-bottom: 50px;
+}
+/* #copyright p{
+    padding-bottom: 50px;
+} */
+
+
+
+@media(max-width:500px) and (min-width: 300px){
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+    #rasi{
+        width:250%;
+        border:solid 1px ;
+        color: white;
+        font-family: 'poppins';
+        background-color: #82BF79;
+        text-align: center; 
+        margin-top: 0%;
+       
+    }
+    .frontPage{
+        width: 100%;
+    }
+    #head{
+        color: white;
+    }
+    #pillows{
+        width: 0%;
+        height: 0%;
+    }
+    .pillow-text{
+        font-family: 'poppins';
+        position: absolute;
+        text-align: center;
+        margin-top: 0%;
+        margin-left: 0%;
+        color: white;
+        font-size: 0px;
+        width: 0%; 
+        height: 0%; 
+        top: 0%; 
+        left: 0%;
+    } 
+    nav a{
+       color: white;
+        gap: 0%;
+        font-family: 'poopins';
+    
+    }
+    #rank{
+        font-size: 0;
+        font-family: 'poppins';
+        border: solid 1px black; 
+        text-align: center;
+        gap: 0%;
+    }
+    .screen-printing{
+        display: flex;
+        margin-left: 0%;
+        margin-bottom: 0%;
+        
+    }
+    #sofa{
+        margin-right: 0%;
+        box-shadow: 15px 10px 10px 10px gray;
+    
+    }
+    .screen-text{
+        text-align: justify;
+        font-family: 'poppins';
+    }
+}
+
+
